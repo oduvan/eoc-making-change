@@ -8,7 +8,7 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var io = new extIO({
             multipleArguments: true,
             functions: {
-                python: 'checkio',
+                python: 'making_change',
                 js: 'makingChange'
             }
         });
